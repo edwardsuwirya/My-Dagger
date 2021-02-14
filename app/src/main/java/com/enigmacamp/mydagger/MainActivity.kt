@@ -9,6 +9,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        /*
+            Setiap kali kita membuat activity/fragment baru,
+            apakah kita harus membuat dagger component ?
+            mungkin ada alternatif lainnya ?
+         */
         val bioskop = DaggerBioskopComponent.create().getBioskop()
         val result = bioskop.tayang()
 

@@ -6,8 +6,8 @@ import dagger.Component
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = [BioskopHardwareModule::class, HardwareInfoModule::class])
+@Component(modules = [BioskopHardwareModule::class, HardwareInfoModule::class,SubComponentModule::class])
 interface BioskopComponent {
-    fun inject(activity: MainActivity)
+    fun mainSubComponent(): MainSubComponent.Factory
     fun inject(activity: SecondActivity)
 }

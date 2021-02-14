@@ -1,4 +1,7 @@
 package com.enigmacamp.mydagger
 
-class Proyektor {
+import javax.inject.Inject
+
+class Proyektor @Inject constructor() {
+    val tag = "Proyektor"
 }

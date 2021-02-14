@@ -1,17 +1,8 @@
 package com.enigmacamp.mydagger
 
-class Bioskop {
-    var layar: Layar
-    var proyektor: Proyektor
-    var film: Film
+import javax.inject.Inject
 
-    init {
-        layar = Layar()
-        proyektor = Proyektor()
-        film = Film()
-    }
+class Bioskop @Inject constructor(val layar: Layar, val proyektor: Proyektor, val film: Film) {
+    fun tayang() = "Tayangan bioskop dengan ${layar.tag}, ${proyektor.tag}, ${film.tag}"
 
-    fun tayang() {
-        println("Tayangan bioskop")
-    }
 }

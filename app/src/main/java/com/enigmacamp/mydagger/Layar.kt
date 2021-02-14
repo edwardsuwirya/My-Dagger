@@ -1,4 +1,7 @@
 package com.enigmacamp.mydagger
 
-class Layar {
+import javax.inject.Inject
+
+class Layar @Inject constructor() {
+    val tag = "Layar"
 }

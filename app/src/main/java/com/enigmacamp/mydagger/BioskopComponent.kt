@@ -4,5 +4,6 @@ import dagger.Component
 
 @Component
 interface BioskopComponent {
-    fun getBioskop(): Bioskop
+    fun inject(activity: MainActivity)
+    fun inject(activity: SecondActivity)
 }

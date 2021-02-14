@@ -1,4 +1,4 @@
-package com.enigmacamp.mydagger
+package com.enigmacamp.mydagger.presentation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import com.enigmacamp.mydagger.BaseApplication
+import com.enigmacamp.mydagger.repository.Bioskop
+import com.enigmacamp.mydagger.R
 import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {

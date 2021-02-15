@@ -1,4 +1,4 @@
-package com.enigmacamp.mydagger.di
+package com.enigmacamp.mydagger.di.module
 
 import android.content.Context
 import com.enigmacamp.mydagger.repository.BioskopSharedPref

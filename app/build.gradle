@@ -7,6 +7,10 @@ apply plugin: 'kotlin-kapt'
 android {
     compileSdkVersion 29
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.enigmacamp.mydagger"
         minSdkVersion 27

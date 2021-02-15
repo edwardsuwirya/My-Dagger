@@ -1,4 +1,4 @@
-package com.enigmacamp.mydagger.di
+package com.enigmacamp.mydagger.di.module
 
 import com.enigmacamp.mydagger.repository.*
 import dagger.Module

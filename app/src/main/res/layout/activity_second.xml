@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.SecondActivity">
+    tools:context=".presentation.secondActivity.SecondActivity">
 
     <TextView
         android:id="@+id/info2_textView"

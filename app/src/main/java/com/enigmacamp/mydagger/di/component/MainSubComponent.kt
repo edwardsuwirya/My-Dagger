@@ -1,6 +1,6 @@
-package com.enigmacamp.mydagger.di
+package com.enigmacamp.mydagger.di.component
 
-import com.enigmacamp.mydagger.presentation.MainActivity
+import com.enigmacamp.mydagger.presentation.mainActivity.MainActivity
 import dagger.Subcomponent
 
 @Subcomponent

@@ -5,9 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.enigmacamp.mydagger.repository.Bioskop
 import com.enigmacamp.mydagger.repository.BioskopSharedPref
-import javax.inject.Inject
 
-class MainViewModel @Inject constructor(val bioskop: Bioskop, var sharedPref: BioskopSharedPref) :
+class MainViewModel(val bioskop: Bioskop, var sharedPref: BioskopSharedPref) :
     ViewModel() {
     private var _resultLiveData = MutableLiveData<String>()
     val resultLiveData: LiveData<String>

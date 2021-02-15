@@ -10,6 +10,7 @@ import com.enigmacamp.mydagger.BaseApplication
 import com.enigmacamp.mydagger.repository.Bioskop
 import com.enigmacamp.mydagger.R
 import com.enigmacamp.mydagger.databinding.ActivitySecondBinding
+import com.enigmacamp.mydagger.presentation.mainActivity.MainActivityViewModelFactory
 import com.enigmacamp.mydagger.presentation.mainActivity.MainViewModel
 import com.enigmacamp.mydagger.repository.BioskopSharedPref
 import javax.inject.Inject

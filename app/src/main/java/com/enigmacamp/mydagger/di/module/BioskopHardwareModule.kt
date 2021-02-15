@@ -9,7 +9,6 @@ import javax.inject.Singleton
 @Module
 class BioskopHardwareModule {
 
-    @Singleton
     @Provides
     fun provideBioskop(
         @Named("Layar") layar: IHardwareComponent,

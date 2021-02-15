@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.enigmacamp.mydagger.repository.BioskopSharedPref
-import javax.inject.Inject
 
-class SecondViewModel @Inject constructor(var sharedPref: BioskopSharedPref) : ViewModel() {
+
+class SecondViewModel (var sharedPref: BioskopSharedPref) : ViewModel() {
     private var _infoLiveData = MutableLiveData<String>()
     val infoLiveData: LiveData<String>
         get() {
